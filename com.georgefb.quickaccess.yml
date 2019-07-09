@@ -16,6 +16,6 @@ modules:
   - name: QuickAccess
     buildsystem: cmake-ninja
     sources:
-      - type: archive
-        url: https://gitlab.com/g-fb/quickaccess/-/archive/1.0.1/quickaccess-1.0.1.tar.gz
-        sha256: 5b483d2b9453ec9c4609aad1c3ef2ed7e3e0c3d1e961e599ff20f70d9917999a
+      - type: git
+        url: https://gitlab.com/g-fb/quickaccess
+        tag: "1.0.2"
