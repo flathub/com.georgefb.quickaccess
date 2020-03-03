@@ -6,17 +6,17 @@ command: quickaccess
 rename-icon: quickaccess
 copy-icon: true
 finish-args:
-  - --share=ipc
-  - --socket=x11
-  - --socket=wayland
-  - --filesystem=host
-  - --talk-name=org.freedesktop.Flatpak
-  - --talk-name=org.kde.StatusNotifierWatcher
-  - --device=dri
+  - '--share=ipc'
+  - '--socket=x11'
+  - '--socket=wayland'
+  - '--filesystem=host'
+  - '--talk-name=org.freedesktop.Flatpak'
+  - '--talk-name=org.kde.StatusNotifierWatcher'
+  - '--device=dri'
 modules:
   - name: QuickAccess
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://gitlab.com/g-fb/quickaccess/-/archive/2.0.7/quickaccess-2.0.7.tar.gz
-        sha256: e569800ddd1c88a6af5bb1da5002149ffa9dd849b4f75c970951f987049aafa4
+        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/2.0.8/quickaccess-2.0.8.tar.gz'
+        sha256: 89ae142a6e7a4a102c660cc14463e445eeb36ff45ba4c2c7ea7b7f529f84ce24
