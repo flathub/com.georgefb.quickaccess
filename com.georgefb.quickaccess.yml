@@ -1,6 +1,6 @@
 app-id: com.georgefb.quickaccess
 runtime: org.kde.Platform
-runtime-version: '5.14'
+runtime-version: '5.15'
 sdk: org.kde.Sdk
 command: quickaccess
 rename-icon: quickaccess
@@ -18,5 +18,5 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/2.0.8/quickaccess-2.0.8.tar.gz'
-        sha256: 89ae142a6e7a4a102c660cc14463e445eeb36ff45ba4c2c7ea7b7f529f84ce24
+        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/2.0.9/quickaccess-2.0.9.tar.gz'
+        sha256: '9de494b1e79dc66e2f424bfe7be16c5b818c294de4b2ed6956ee10573409ac70'
