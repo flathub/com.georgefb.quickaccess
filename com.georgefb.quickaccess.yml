@@ -19,4 +19,4 @@ modules:
     sources:
       - type: archive
         url: 'https://gitlab.com/g-fb/quickaccess/-/archive/2.0.9/quickaccess-2.0.9.tar.gz'
-        sha256: '9de494b1e79dc66e2f424bfe7be16c5b818c294de4b2ed6956ee10573409ac70'
+        sha256: 'cc9a3708ab39a2aded13f9da61ce20817c535ce29f9039e358af9fa8c3d7312a'
