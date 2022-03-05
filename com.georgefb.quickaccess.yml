@@ -18,5 +18,5 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/2.0.9/quickaccess-2.0.9.tar.gz'
-        sha256: 'cc9a3708ab39a2aded13f9da61ce20817c535ce29f9039e358af9fa8c3d7312a'
+        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/3.0.0/quickaccess-3.0.0.tar.gz'
+        sha256: 'bb75dce48763860a4209e93f540d42e135c8f2ef8ee61a00a9a926620f1d24c3'
