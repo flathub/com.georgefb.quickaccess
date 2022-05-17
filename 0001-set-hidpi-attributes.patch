@@ -1,0 +1,26 @@
+From d239beec0c8669c48f54b55e172cf9bf0e7b2bf7 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?George=20Florea=20B=C4=83nu=C8=99?= <georgefb899@gmail.com>
+Date: Tue, 17 May 2022 21:01:48 +0300
+Subject: [PATCH 1/2] set hidpi attributes
+
+---
+ src/main.cpp | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/main.cpp b/src/main.cpp
+index 570d927..aac9e14 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -5,6 +5,9 @@
+ 
+ int main(int argc, char *argv[])
+ {
++    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
++    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
++
+     QApplication app(argc, argv);
+     QCoreApplication::setApplicationVersion("3.0.0");
+     KLocalizedString::setApplicationDomain("quickaccess");
+-- 
+2.36.1
+
