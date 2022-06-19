@@ -18,9 +18,5 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/3.0.0/quickaccess-3.0.0.tar.gz'
-        sha256: 'bb75dce48763860a4209e93f540d42e135c8f2ef8ee61a00a9a926620f1d24c3'
-      - type: patch
-        path: '0001-set-hidpi-attributes.patch'
-      - type: patch
-        path: '0002-fix-custom-icon-not-displaying.patch'
+        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/3.0.1/quickaccess-3.0.1.tar.gz'
+        sha256: 'bac3988177bdaf7a85ee613fed70fa64a8ac52c4c9805c99dc00e6581b4dd189'
