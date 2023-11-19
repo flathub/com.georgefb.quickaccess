@@ -1,22 +1,22 @@
 app-id: com.georgefb.quickaccess
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
 command: quickaccess
 rename-icon: quickaccess
 copy-icon: true
 finish-args:
-  - '--share=ipc'
-  - '--socket=x11'
-  - '--socket=wayland'
-  - '--filesystem=host'
-  - '--talk-name=org.freedesktop.Flatpak'
-  - '--talk-name=org.kde.StatusNotifierWatcher'
-  - '--device=dri'
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --filesystem=host
+  - --device=dri
+  - --talk-name=org.freedesktop.Flatpak
+  - --talk-name=org.kde.StatusNotifierWatcher
 modules:
   - name: QuickAccess
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://gitlab.com/g-fb/quickaccess/-/archive/3.0.1/quickaccess-3.0.1.tar.gz'
-        sha256: 'bac3988177bdaf7a85ee613fed70fa64a8ac52c4c9805c99dc00e6581b4dd189'
+        url: https://gitlab.com/g-fb/quickaccess/-/archive/3.0.1/quickaccess-3.0.1.tar.gz
+        sha256: bac3988177bdaf7a85ee613fed70fa64a8ac52c4c9805c99dc00e6581b4dd189
