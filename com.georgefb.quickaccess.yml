@@ -18,5 +18,5 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/g-fb/quickaccess/archive/refs/tags/3.1.0.tar.gz
-        sha256: 4e9d667596eee9c0092fca94388aeb18f0550db4655db75d5eef2823e5d27cf2
+        url: https://github.com/g-fb/quickaccess/archive/refs/tags/3.2.0.tar.gz
+        sha256: 2a46a284123ddd49e85d405ce1b05028a43d8d48b02b9fcaa6e24d6fb30667d8
